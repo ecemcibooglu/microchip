@@ -1,0 +1,1746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Synchronization & Timing</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="vendor.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid header">
+        <div class="container py-5">
+          <div class="row p-5">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide w-100"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner my-5">
+                <div class="carousel-item active col-12" alt="First slide">
+                  <div class="row white-bg">
+                    <div class="col-lg-6 p-4 order-2 order-lg-1 my-auto">
+                      <h1 class="first-title">
+                        End-to-end timing solutions engineered to solve your most
+                        difficult network timing challenges
+                      </h1>
+                      <p>
+                        Looking for a solution for delivering precise and accurate
+                        time? With Microchip’s advanced technologies for energy
+                        efficiency and time accuracy, we can help you build more
+                        reliable and secure networks and systems to meet the most
+                        demanding applications.
+                      </p>
+                      <div class="row mt-3">
+                        <div class="col-sm-6">
+                          <a
+                            href="{PAGE_1216}"
+                            data-cxp-stat=""
+                            data-cxp-cat="PDF"
+                            target="_blank"
+                            class="btn orange-btn mb-mobile-first cxp-track mr-2"
+                            >Request a quote</a
+                          >
+                        </div>
+                        <div class="col-sm-6">
+                          <a
+                            href="{PAGE_1214}"
+                            data-cxp-stat=""
+                            data-cxp-cat="PDF"
+                            target="_blank"
+                            class="btn transparent-btn cxp-track"
+                            >Contact us</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mx-auto px-0 order-1 order-lg-2">
+                      <img
+                        src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/bitmap.png"
+                        class="img-fluid w-100 h-100"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item col-12" alt="Second slide">
+                  <div class="row white-bg">
+                    <div class="col-lg-6 p-4 order-2 order-lg-1 my-auto">
+                      <h1 class="first-title">
+                        Accurate and Precise Time Is a Foundational Element in Zero
+                        Trust Networks
+                      </h1>
+                      <p>
+                        Time is central to accurate log files that define the who,
+                        what, when and where of all activity in a Zero Trust network.
+                        Time that is accurate, reliable and secure is foundational to
+                        Zero Trust networks.
+                      </p>
+                      <a
+                        href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Banner%20Content_Zero%20Trust%20Networks.pdf"
+                        data-cxp-stat="Timing Banner Content Zero Trust Networks pdf"
+                        data-cxp-cat="PDF"
+                        target="_blank"
+                        class="btn blue-btn cxp-track"
+                        >Learn more</a
+                      >
+                    </div>
+                    <div class="col-lg-6 col-md-12 mx-auto px-0 order-1 order-lg-2">
+                      <img
+                        src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/bitmap2.png"
+                        class="img-fluid w-100"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item col-12" alt="Third slide">
+                  <div class="row white-bg">
+                    <div class="col-lg-6 p-4 order-2 my-auto order-lg-1">
+                      <h1 class="first-title">
+                        Time: The Cornerstone of Secure Position, Navigation and Time
+                        (PNT)
+                      </h1>
+                      <p>
+                        Global Navigation Satellite Systems (GNSS) have revolutionized
+                        the world. Civilian and military navigation, cellular
+                        networks, the Internet, financial services, energy
+                        distribution, and air traffic control are just a few examples
+                        of the different applications that rely heavily on GNSS.
+                      </p>
+                      <p>Read the white paper to learn more.</p>
+                      <a
+                        href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Banner_Content_Secure%20PNT.pdf"
+                        data-cxp-stat="Timing Banner Content Secure PNT"
+                        data-cxp-cat="PDF"
+                        target="_blank"
+                        class="btn blue-btn cxp-track"
+                        >Download now</a
+                      >
+                    </div>
+                    <div class="col-lg-6 col-md-12 mx-auto px-0 order-1 order-lg-2">
+                      <img
+                        src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/bitmap3.png"
+                        class="img-fluid w-100"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid px-0 border-top">
+        <a
+          href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Banner%20Content_Precise%20Time%20System.pdf"
+          class="cxp-track"
+          data-cxp-stat="PDF"
+          data-cxp-cat="Timing Banner Content Precise Time System PDF"
+          target="_blank"
+        >
+          <img
+            src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/banner.png"
+            alt=""
+            class="img-fluid w-100"
+        /></a>
+      </div>
+  <div class="container-fluid bg-light-gray position-relative">
+          <div class="container py-5">
+            <div class="row pb-5">
+              <div class="col-lg-12 secondary-heading py-3 text-center">
+                Latest updates
+              </div>
+              <div class="row mt-4 row-spacing">
+              <div class="col-lg-4 col-md-6">
+                  <div
+                    class="text-center d-flex flex-column align-items-center update-container"
+                  >
+                    <img
+                      src="https://assets.channext.eu/microchip/2024/synchronizationandtimin/img/16-02.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                    <div class="row my-4">
+                      <h5 class="pt-2 px-5">
+                      New Release: TimeProvider® 4500 Series  
+                      </h5>
+                    </div>
+                    <a
+                      href="https://assets.channext.eu/microchip/2024/synchronizationandtimin/pdf/Resource_TimeProvider%204500%20news%20release.pdf"
+                      data-cxp-stat="TimeProvider® 4500 Series"
+                      data-cxp-cat="PDF"
+                      target="_blank"
+                      class="update-btn d-inline-block px-md-5 cxp-track mt-auto mb-4"
+                      >Download</a
+                    >
+                  </div>
+                </div>
+            <div class="col-lg-4 col-md-6">
+                  <div
+                    class="text-center d-flex flex-column align-items-center update-container"
+                  >
+                    <img
+                      src="https://assets.channext.eu/microchip/2024/synchronizationandtimin/img/09-02.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                    <div class="row my-4">
+                      <h5 class="pt-2 px-5">
+                      Article: National Metrology Labs 
+                      </h5>
+                    </div>
+                    <a
+                      href="https://assets.channext.eu/microchip/2024/synchronizationandtimin/pdf/2024_4_Resource_Time%20Scale%20Systems_National%20Metrology%20Labs.pdf"
+                      data-cxp-stat="Article: National Metrology Labs "
+                      data-cxp-cat="PDF"
+                      target="_blank"
+                      class="update-btn d-inline-block px-md-5 cxp-track mt-auto mb-4"
+                      >Download</a
+                    >
+                  </div>
+                </div>
+             <div class="col-lg-4 col-md-6">
+                  <div
+                    class="text-center d-flex flex-column align-items-center update-container"
+                  >
+                    <img
+                      src="https://assets.channext.eu/microchip/2024/synchronizationandtimin/img/5071B.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                    <div class="row my-4">
+                      <h5 class="pt-2 px-5">
+                      5071B Cesium Primary Standard and Frequency Standard Data Center
+                      </h5>
+                    </div>
+                    <a
+                      href="https://assets.channext.eu/microchip/2024/synchronizationandtimin/pdf/2024_1_Resource_5071B_Data%20Center.pdf"
+                      data-cxp-stat="5071B_Data%20Center"
+                      data-cxp-cat="PDF"
+                      target="_blank"
+                      class="update-btn d-inline-block px-md-5 cxp-track mt-auto mb-4"
+                      >Download</a
+                    >
+                  </div>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div
+          class="container-fluid bg-light-blue desktop-version position-relative"
+        >
+          <div class="container py-5">
+            <div class="row pb-5">
+              <div class="col-lg-12 secondary-heading py-2 text-center">
+                Products
+              </div>
+              <div
+                id="carouselExampleControls"
+                class="carousel desktop-version slide w-100"
+                data-interval="false"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner my-5">
+                  <div class="carousel-item active col-12">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-6 mt-4">
+                        <div
+                          class="text-center d-flex flex-column align-items-center product-container"
+                        >
+                          <img
+                            src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/pro1.png"
+                            class="img-fluid mb-4 w-100"
+                            alt=""
+                          />
+                          <h5 class="mb-4">
+                            Carrier Grade NTP &<br />
+                            PTP Grand Masters
+                          </h5>
+                          <a
+                            href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Carrier%20Grade%20NTP%20and%20PTP%20IEEE%201588%20Grand%20Masters_New.pdf"
+                            data-cxp-stat="Carrier Grade Products"
+                            data-cxp-cat="PDF"
+                            target="_blank"
+                            class="purple-btn cxp-track"
+                            >Download product brochure</a
+                          >
+                          <a
+                            href="https://www.youtube.com/embed/hw5BzdOrlWs"
+                            class="link-btn mt-4 cxp-track"
+                            data-cxp-stat="Carrier Grade NTP & PTP Grand Masters"
+                            data-cxp-cat="Video"
+                            target="_blank"
+                            >Watch video</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mt-4">
+                        <div
+                          class="text-center d-flex flex-column align-items-center product-container"
+                        >
+                          <img
+                            src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/pro2.png"
+                            class="img-fluid mb-4 w-100"
+                            alt=""
+                          />
+                          <h5 class="mb-4">
+                            Enterprise Network<br />
+                            Time Servers
+                          </h5>
+                          <a
+                            href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Enterprise%20Network%20Time%20Servers_New.pdf"
+                            data-cxp-stat="Enterprise Network Products"
+                            data-cxp-cat="PDF"
+                            target="_blank"
+                            class="purple-btn cxp-track"
+                            >Download product brochure</a
+                          >
+                          <a
+                            href="https://www.youtube.com/embed/Bp3WDkyIlJM"
+                            class="link-btn mt-4 cxp-track"
+                            data-cxp-stat="Enterprise Time Servers"
+                            data-cxp-cat="Video"
+                            target="_blank"
+                            >Watch video</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mt-4">
+                        <div
+                          class="text-center d-flex flex-column align-items-center product-container"
+                        >
+                          <img
+                            src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/pro3.png"
+                            class="img-fluid mb-4 w-100"
+                            alt=""
+                          />
+                          <h5 class="mb-4">
+                            GNSS Timing<br />
+                            Instruments
+                          </h5>
+                          <a
+                            href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_GNSS%20Timing%20Instruments_New.pdf"
+                            class="purple-btn cxp-track"
+                            data-cxp-stat="Timing_GNSS Timing Instruments New"
+                            data-cxp-cat="PDF"
+                            target="_blank"
+                            >Download product brochure</a
+                          >
+                          <a
+                            href="https://www.youtube.com/embed/uwCUZ5myBvM"
+                            class="link-btn mt-4 cxp-track"
+                            data-cxp-stat="GNSS Timing Instruments"
+                            data-cxp-cat="Video"
+                            target="_blank"
+                            >Watch video</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item col-lg-12">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-6 mt-4">
+                        <div
+                          class="text-center d-flex flex-column align-items-center product-container"
+                        >
+                          <img
+                            src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/pro4.png"
+                            class="img-fluid mb-4 w-100"
+                            alt=""
+                          />
+                          <h5 class="mb-4">
+                            Power Utility Timing<br />
+                            Systems
+                          </h5>
+                          <a
+                            href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Power%20Utility%20Timing%20Systems_New.pdf"
+                            class="purple-btn cxp-track"
+                            data-cxp-stat="Timing Power Utility Timing Systems"
+                            data-cxp-cat="PDF"
+                            target="_blank"
+                            >Download product brochure</a
+                          >
+                          <a
+                            href="https://www.youtube.com/embed/aBm5MHrCvsY"
+                            class="link-btn mt-4 cxp-track"
+                            data-cxp-stat="Power Utility Timing Systems"
+                            data-cxp-cat="Video"
+                            target="_blank"
+                            >Watch video</a
+                          >
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mt-4">
+                        <div
+                          class="text-center d-flex flex-column align-items-center product-container"
+                        >
+                          <img
+                            src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/pro5.png"
+                            class="img-fluid mb-4 w-100"
+                            alt=""
+                          />
+                          <h5 class="mb-4">Embedded Atomic <br />Oscillators</h5>
+                          <a
+                            href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Embedded%20Atomic%20Oscillators_New.pdf"
+                            data-cxp-stat="Enterprise Network Products"
+                            data-cxp-cat="PDF"
+                            target="_blank"
+                            class="purple-btn cxp-track"
+                            >Download product brochure</a
+                          >
+                          <a
+                            href="https://www.youtube.com/embed/hz6Q8yv91ys"
+                            class="link-btn mt-4 cxp-track"
+                            data-cxp-stat="Embedded Atomic Oscillators"
+                            data-cxp-cat="Video"
+                            target="_blank"
+                            >Watch video</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleControls"
+                  role="button"
+                  data-slide="prev"
+                  target
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="#000"
+                    class="bi bi-chevron-left"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleControls"
+                  role="button"
+                  data-slide="next"
+                  target
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-chevron-right"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container-fluid bg-light-blue mobile-version position-relative">
+          <div class="container py-5">
+            <div class="row pb-5">
+              <div class="col-lg-12 secondary-heading py-2 text-center">
+                Products
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-sm-6 mt-4">
+                  <div
+                    class="text-center d-flex flex-column align-items-center product-container"
+                  >
+                    <img
+                      src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/pro1.png"
+                      class="img-fluid mb-4 w-100"
+                      alt=""
+                    />
+                    <h5 class="mb-4">
+                      Carrier Grade NTP &<br />
+                      PTP Grand Masters
+                    </h5>
+                    <a
+                      href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Carrier%20Grade%20NTP%20and%20PTP%20IEEE%201588%20Grand%20Masters_New.pdf"
+                      data-cxp-stat="Carrier Grade Products"
+                      data-cxp-cat="PDF"
+                      target="_blank"
+                      class="purple-btn cxp-track"
+                      >Download product brochure</a
+                    >
+                    <a
+                      href="https://www.youtube.com/embed/hw5BzdOrlWs"
+                      class="link-btn mt-4 cxp-track"
+                      data-cxp-stat="Carrier Grade NTP & PTP Grand Masters"
+                      data-cxp-cat="Video"
+                      target="_blank"
+                      >Watch video</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-4">
+                  <div
+                    class="text-center d-flex flex-column align-items-center product-container"
+                  >
+                    <img
+                      src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/pro2.png"
+                      class="img-fluid mb-4 w-100"
+                      alt=""
+                    />
+                    <h5 class="mb-4">
+                      Enterprise Network<br />
+                      Time Servers
+                    </h5>
+                    <a
+                      href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Enterprise%20Network%20Time%20Servers_New.pdf"
+                      data-cxp-stat="Enterprise Network Products"
+                      data-cxp-cat="PDF"
+                      target="_blank"
+                      class="purple-btn cxp-track"
+                      >Download product brochure</a
+                    >
+                    <a
+                      href="https://www.youtube.com/embed/Bp3WDkyIlJM"
+                      class="link-btn mt-4 cxp-track"
+                      data-cxp-stat="Enterprise Time Servers"
+                      data-cxp-cat="Video"
+                      target="_blank"
+                      >Watch video</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-4">
+                  <div
+                    class="text-center d-flex flex-column align-items-center product-container"
+                  >
+                    <img
+                      src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/pro3.png"
+                      class="img-fluid mb-4 w-100"
+                      alt=""
+                    />
+                    <h5 class="mb-4">
+                      GNSS Timing<br />
+                      Instruments
+                    </h5>
+                    <a
+                      href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_GNSS%20Timing%20Instruments_New.pdf"
+                      class="purple-btn mb-4 cxp-track"
+                      data-cxp-stat="Timing_GNSS Timing Instruments New"
+                      data-cxp-cat="PDF"
+                      target="_blank"
+                      >Download product brochure</a
+                    >
+                    <a
+                      href="https://www.youtube.com/embed/uwCUZ5myBvM"
+                      class="link-btn mt-4 cxp-track"
+                      data-cxp-stat="GNSS Timing Instruments"
+                      data-cxp-cat="Video"
+                      target="_blank"
+                      >Watch video</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-4">
+                  <div
+                    class="text-center d-flex flex-column align-items-center product-container"
+                  >
+                    <img
+                      src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/pro4.png"
+                      class="img-fluid mb-4 w-100"
+                      alt=""
+                    />
+                    <h5 class="mb-4">
+                      Power Utility Timing<br />
+                      Systems
+                    </h5>
+                    <a
+                      href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Power%20Utility%20Timing%20Systems_New.pdf"
+                      class="purple-btn mb-4 cxp-track"
+                      data-cxp-stat="Timing Power Utility Timing Systems"
+                      data-cxp-cat="PDF"
+                      target="_blank"
+                      >Download product brochure</a
+                    >
+                    <a
+                      href="https://www.youtube.com/embed/aBm5MHrCvsY"
+                      class="link-btn mt-4 cxp-track"
+                      data-cxp-stat="Power Utility Timing Systems"
+                      data-cxp-cat="Video"
+                      target="_blank"
+                      >Watch video</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-4">
+                  <div
+                    class="text-center d-flex flex-column align-items-center product-container"
+                  >
+                    <img
+                      src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/img/pro5.png"
+                      class="img-fluid mb-4 w-100"
+                      alt=""
+                    />
+                    <h5 class="mb-4">Embedded Atomic <br />Oscillators</h5>
+                    <a
+                      href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Embedded%20Atomic%20Oscillators_New.pdf"
+                      data-cxp-stat="Enterprise Network Products"
+                      data-cxp-cat="PDF"
+                      target="_blank"
+                      class="purple-btn cxp-track"
+                      >Download product brochure</a
+                    >
+                    <a
+                      href="https://www.youtube.com/embed/hz6Q8yv91ys"
+                      class="link-btn mt-4 cxp-track"
+                      data-cxp-stat="Embedded Atomic Oscillators"
+                      data-cxp-cat="Video"
+                      target="_blank"
+                      >Watch video</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 secondary-heading py-2 text-center">
+                Resources
+              </div>
+              <div class="col-lg-12 third-heading py-2 text-center">Literature</div>
+            </div>
+            <div class="row my-5">
+              <div class="col-sm-5 col-height my-auto">
+                <ul class="nav nav-tabs">
+                 <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog15"
+                      ><b style="font-weight: 700">Blog:</b> Option IR for the Microchip 53100A
+                    </a>
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog14"
+                      ><b style="font-weight: 700">Blog:</b> Phase Noise Analyzer -
+                      Improving the Phase Noise Floor
+                    </a>
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog13"
+                      ><b style="font-weight: 700">Blog:</b> New Cesium Atomic Clock
+                      Provides Autonomous Precise Time of 100 ns Holdover For Months
+                    </a>
+                  </li>
+    
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog12"
+                      ><b style="font-weight: 700">Whitepaper:</b> 5G Services and
+                      Sync Importance
+                    </a>
+                  </li>
+    
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog11"
+                      ><b style="font-weight: 700">Blog:</b> Zero Trust Data Center
+                      Networks
+                    </a>
+                  </li>
+    
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog8"
+                      ><b style="font-weight: 700">Blog</b> What Is Trusted Time for
+                      Zero Trust Networks and Why Does it Matter?</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog7"
+                      ><b style="font-weight: 700">Blog</b> Cornerstone of Any
+                      Secure PNT Solution</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog1"
+                      ><b style="font-weight: 700">Newsletter</b> Timing and
+                      Synchronization Products and Applications</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog2"
+                      ><b style="font-weight: 700">Blog</b> 5G Deployment in Future
+                      Military Applications</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog3"
+                      ><b style="font-weight: 700">Blog</b> 1588 Grandmaster – Why
+                      Care About Your Engine?</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog4"
+                      ><b style="font-weight: 700">Blog</b> Should PNT Really Be
+                      TPN?</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog5"
+                      ><b style="font-weight: 700">Blog</b> Troubleshooting GNSS
+                      Timing Problems
+                    </a>
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#blog6"
+                      ><b style="font-weight: 700">Blog</b> What is Zero Trust?</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-7 tab-content">
+                          <div id="blog15" class="active tab-pane in pro-white-bg">
+                  <h3>
+                   Use the power of cross correlation with dual independent reference sources
+                  </h3>
+                  <p>
+                 With the Microchip 53100A Phase Noise Analyzer, you can use the power of cross correlation with dual independent reference sources to make phase noise and Allan deviation measurements that would otherwise demand significant investments in equipment and training. Now, with the introduction of Option IR, we’ve packaged two high-performance reference sources inside the box, making dual-reference measurements more accessible than ever without compromising the 53100A’s market-leading flexibility.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/AN4941-Option-IR-for-the-Microchip.pdf"
+                    data-cxp-stat="AN4941 Option IR for the Microchip"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    class="btn resources-btn cxp-track"
+                    >Download</a
+                  >
+                </div>
+                <div id="blog14" class="tab-pane in pro-white-bg">
+                  <h3>
+                    Dual Reference Noise and Stability Measurements with the 53100A
+                    Phase Noise Analyzer
+                  </h3>
+                  <p>
+                    Measurement of the phase noise and short-term stability of
+                    high-performance signal sources has always imposed unusual
+                    demands on both the instrumentation and the reference sources
+                    involved.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/AN3526.pdf"
+                    data-cxp-stat="Phase Noise Analyzer - Improving the Phase Noise Floor"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    class="btn resources-btn cxp-track"
+                    >Download</a
+                  >
+                </div>
+                <div id="blog13" class="tab-pane in pro-white-bg">
+                  <h3>
+                    New Cesium Atomic Clock Provides Autonomous Precise Time of 100
+                    ns Holdover For Months
+                  </h3>
+                  <p>
+                    Microchip’s 5071B is a compact commercial timing product
+                    offering ease of deployment across multiple industries
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/5071B-Cesium-Press-Release.pdf"
+                    data-cxp-stat="5071B Cesium Press Release pdf"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    class="btn resources-btn cxp-track"
+                    >Download</a
+                  >
+                </div>
+                <div id="blog12" class="tab-pane in pro-white-bg">
+                  <h3>How Critical Is Timing for 5G Networks?</h3>
+                  <p>
+                    Are you looking for help articulating technical or business
+                    cases relative to 5G timing use cases and architectures?
+                    Download Microchip’s white paper on our website for more
+                    information.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/5G%2BTiming%2BImpact%2BWhite%2BPaper.pdf"
+                    data-cxp-stat="5G Timing Impact White Paper pdf"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    class="btn resources-btn cxp-track"
+                    >Download</a
+                  >
+                </div>
+    
+                <div id="blog11" class="tab-pane in pro-white-bg">
+                  <h3>Zero Trust Data Center Networks</h3>
+                  <p>
+                    Going Zero Trust in the data center? Then you need accurate and
+                    secure network time synchronization. Learn how Microchip’s
+                    Trusted Time™ SyncServer® network time server delivers the
+                    required accurate time in compliance with a Zero Trust
+                    Architecture:
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/What-Is-Trusted-Time-for-Zero-Trust-Data-Center-Networks-and-Why-Does-it-Matter.pdf"
+                    data-cxp-stat="What Is Trusted Time for Zero Trust Data Center Networks and Why Does it Matter pdf"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    class="btn resources-btn cxp-track"
+                    >Download</a
+                  >
+                </div>
+                <div id="blog10" class="tab-pane in pro-white-bg">
+                  <h3>
+                    The motto of Zero Trust is <i>Never Trust, Always Verify</i>.
+                  </h3>
+                  <p>
+                    An organization that is rolling out a Zero Trust Architecture
+                    should understand how irrational it is to get time from public
+                    NTP server pools and how it violates the fundamental concepts of
+                    Zero Trust.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Trusted-Time-for-Zero-Trust-Networks-Versus-Time-From-Internet-NTP-Server-Pools.pdf"
+                    data-cxp-stat="Trusted Time for Zero Trust Networks Versus Time From Internet NTP Server Pools pdf"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    class="btn resources-btn cxp-track"
+                    >Download</a
+                  >
+                </div>
+                <div id="blog9" class="tab-pane in pro-white-bg">
+                  <h3>
+                    The motto of Zero Trust is <i>Never Trust, Always Verify</i>.
+                  </h3>
+                  <p>
+                    An organization that is rolling out a Zero Trust Architecture
+                    should understand how irrational it is to get time from public
+                    NTP server pools and how it violates the fundamental concepts of
+                    Zero Trust.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Trusted-Time-for-Zero-Trust-Networks-Versus-Time-From-Internet-NTP-Server-Pools.pdf"
+                    data-cxp-stat="Trusted Time for Zero Trust Networks Versus Time From Internet NTP Server Pools pdf"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    class="btn resources-btn cxp-track"
+                    >Download</a
+                  >
+                </div>
+                <div id="blog8" class="tab-pane in pro-white-bg">
+                  <h3>What is Zero Trust?</h3>
+                  <p>
+                    In this post, we will discuss why an Information Technology (IT)
+                    professional rolling out a zero trust architecture should care a
+                    great deal about accurate time synchronization of the network
+                    and the time server providing it.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2022/campaigns/fts/pdf/Resource_Blog_Zero%20Trust%20Networks.pdf"
+                    data-cxp-stat="Resource Blog Zero Trust Networks pdf"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    class="btn resources-btn cxp-track"
+                    >Download</a
+                  >
+                </div>
+                <div id="blog7" class="tab-pane in pro-white-bg">
+                  <h3>Cornerstone of Any Secure PNT Solution</h3>
+                  <p>
+                    Critical infrastructure and defense applications can rely on
+                    precise, secure and resilient time even during GNSS denial
+                    thanks to our portfolio of precision timing devices.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2022/campaigns/fts/pdf/PNT.pdf"
+                    data-cxp-stat="Cornerstone of Any Secure PNT Solution"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    class="btn resources-btn cxp-track"
+                    >Download</a
+                  >
+                </div>
+                <div id="blog1" class="tab-pane fade pro-white-bg">
+                  <h3>
+                    Newsletter Timing and Synchronization Products and Applications
+                  </h3>
+                  <p>
+                    Read about activities, newly released products and features,
+                    software, collateral and more.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Newsletter_Q1CY23.pdf"
+                    class="btn resources-btn cxp-track"
+                    data-cxp-stat="Timing_Newsletter"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Download</a
+                  >
+                </div>
+                <div id="blog2" class="tab-pane fade pro-white-bg">
+                  <h3>
+                    Why 5G Deployment will be a Core Component in Future Military
+                    Applications
+                  </h3>
+                  <p>
+                    Bandwidth, and low-latency communications has already cemented
+                    its position as one of the core components of future
+                    applications. This, coupled with advances in AI and increased
+                    processing power, means that 5G will enable ground-breaking
+                    applications, paving a new and efficient way for the US
+                    Department of Defense to operate.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Literature_Blog_5G%20Deployment%20in%20Future%20Military%20Applications.pdf"
+                    class="btn resources-btn cxp-track"
+                    data-cxp-stat="Timing Literature Blog 5G Deployment in Future Military Applications"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Read full blog</a
+                  >
+                </div>
+                <div id="blog3" class="tab-pane fade pro-white-bg">
+                  <h3>1588 Grandmaster – Why Care About Your Engine?</h3>
+                  <p>
+                    Packet engine enhancements have great broad-based impact on
+                    timing. Is a major hardware revamp necessary when faced with
+                    requirements to increase capacity, performance, security and
+                    reliability?
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Literature_Blog_1588%20Grandmaster.pdf"
+                    class="btn resources-btn cxp-track"
+                    data-cxp-stat="Timing Literature Blog 1588 Grandmaster"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Read full blog</a
+                  >
+                </div>
+                <div id="blog4" class="tab-pane fade pro-white-bg">
+                  <h3>Importance of Building a Resilient Future for PNT</h3>
+                  <p>
+                    Critical infrastructure and defense applications can rely on
+                    precise, secure and resilient time even during GNSS denial
+                    thanks to our portfolio of precision timing devices.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Literature_Blog_PNT.pdf"
+                    class="btn resources-btn cxp-track"
+                    data-cxp-stat="Timing Literature Blog PNT"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Read full blog</a
+                  >
+                </div>
+                <div id="blog5" class="tab-pane fade pro-white-bg">
+                  <h3>Three Unusual Real-World Examples</h3>
+                  <p>
+                    SyncServer® S600 time server with BlueSky™ technology logs GNSS
+                    satellite tracking data and local RF noise to provide a baseline
+                    look back in time for alarm correlation.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Literature_Blog_Troubleshooting%20GNSS%20Timing%20Problems.pdf"
+                    class="btn resources-btn cxp-track"
+                    data-cxp-stat="Timing Literature Blog Troubleshooting GNSS Timing Problems"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Read full blog</a
+                  >
+                </div>
+                <div id="blog6" class="tab-pane fade pro-white-bg">
+                  <h3>
+                    What Is Trusted Time for Zero Trust Networks and Why Does it
+                    Matter?
+                  </h3>
+                  <p>
+                    Why should an Information Technology (IT) professional rolling
+                    out a zero trust architecture care a great deal about accurate
+                    time synchronization of the network and the time server
+                    providing it?
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Literature_Blog_Zero%20Trust.pdf"
+                    class="btn resources-btn cxp-track"
+                    data-cxp-stat="Timing Literature Blog Zero Trust pdf"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Read full blog</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 third-heading py-2 text-center">
+                Featured Applications
+              </div>
+            </div>
+            <div class="row my-5">
+              <div class="col-sm-5 col-height mb-mobile my-auto">
+                <ul class="nav nav-tabs">
+                <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app14"
+                      > 5071B Cesium Primary Standard and Frequency Standard Timing
+                        and Metrology</a
+                    >
+                  </li>
+                   <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app13"
+                      >5071B Cesium Primary Standard and Frequency Standard
+                        Critical Infrastructure</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app12"
+                      >Phase Noise Analyzer – Extending the Frequency Range</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app11"
+                      >5071B Cesium Primary Standard and Frequency Standard 5G -
+                      Telecommunications</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app10"
+                      >5071B Cesium Primary Standard and Frequency Standard</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app9"
+                      >Phase Noise Analyzer</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app8"
+                      >TimePictra 11.2 Synchronization Management System</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app7"
+                      >TimePictra® Synchronization Management System</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app6"
+                      >Phase Noise Analyzer</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app5"
+                      >SyncServer® S600 Enterprise NTP/PTP Time Server</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app1"
+                      >Resilient Timing Services for 5G Networks</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app2"
+                      >Data Center Timing and Synchronization</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app3"
+                      >Resilient PNT Services for Power Utilities</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#app4"
+                      >Resilient PNT Services for Transportation</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-7 tab-content">
+               <div id="app14" class="tab-pane pro-white-bg in active">
+                  <h3>
+                    5071B Cesium Primary Standard and Frequency Standard Timing and Metrology
+                  </h3>
+                  <p>
+                    The 5071B primary time and frequency standard is a replacement for the 5071A that matches the form, fit and functions of its predecessor. All connections and commands remain unchanged. We updated the 5071B’s internal electronics with modern circuitry, including our microprocessors (MPUs), to ensure continuity of supply for all components into the next decade and achieve RoHS compliance.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/2023_16_Resource_5071B_Metrology.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="5071B Cesium Primary Standard and Frequency Standard Critical Infrastructure"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                    <div id="app13" class="tab-pane pro-white-bg in">
+                  <h3>
+                    5071B Cesium Primary Standard and Frequency Standard Critical Infrastructure
+                  </h3>
+                  <p>
+                    The 5071B primary time and frequency standard is a replacement for the 5071A that matches the form, fit and functions of its predecessor. All connections and commands remain unchanged. We updated the 5071B’s internal electronics with modern circuitry, including our microprocessors (MPUs), to ensure continuity of supply for all components into the next decade and achieve RoHS compliance. 
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/5071B_Critical_Infrastructure.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="5071B Cesium Primary Standard and Frequency Standard Critical Infrastructure"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                <div id="app12" class="tab-pane pro-white-bg in">
+                  <h3>
+                    UHF and Microwave Measurements with the 53100A Phase Noise
+                    Analyzer
+                  </h3>
+                  <p>
+                    While the Microchip 53100A Phase Noise Analyzer is engineered to
+                    characterize the most demanding HF and VHF signal sources, many
+                    applications require similar measurement capabilities at higher
+                    carrier frequencies. This application note discusses how to take
+                    advantage of the 53100A’s class-leading performance and
+                    ease-of-use at carrier frequencies well beyond its 200 MHz
+                    specification limit.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/AN3899-UHF-and-Microwave-Measurements-with-the-53100A-Phase-Noise-Analyzer-DS00003899A.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="UHF and Microwave Measurements with the 53100A Phase Noise Analyzer"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                <div id="app11" class="tab-pane pro-white-bg fade">
+                  <h3>
+                    5071B Cesium Primary Standard and Frequency Standard 5G -
+                    Telecommunications
+                  </h3>
+                  <p>
+                    The 5071B primary time and frequency standard is a replacement
+                    for the 5071A that matches the form, fit and functions of its
+                    predecessor. All connections and commands remain unchanged. We
+                    updated the 5071B’s internal electronics with modern circuitry,
+                    including our microprocessors (MPUs), to ensure continuity of
+                    supply for all components into the next decade and achieve RoHS
+                    compliance.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/2023_15_Resource_5071B_5G%20Telecommunications%20%281%29.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="5071B Cesium Primary Standard and Frequency Standard 5G - Telecommunications"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                <div id="app10" class="tab-pane pro-white-bg fade">
+                  <h3>5071B Cesium Primary Standard and Frequency Standard</h3>
+                  <p>
+                    Nanosecond timing is critical to a 5G network, enabling the
+                    highspeed transport of unprecedented volumes of data.
+                    Microchip’s CE-compliant 5071B Cesium Primary Time and Frequency
+                    Standard exceeds the holdover requirements of G.8272.1 epRTC
+                    ensuring network availability during GNSS outages. 
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/5071B_Aerospace&Defense.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="5071B Cesium Primary Standard and Frequency Standard"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                <div id="app9" class="tab-pane pro-white-bg fade">
+                  <h3>Phase Noise Analyzer</h3>
+                  <p>
+                    Some of the most common applications for precision time and
+                    frequency instrumentation include measuring the output
+                    frequency, phase noise, and frequency stability of crystal
+                    oscillators, atomic frequency standards, and other
+                    high-performance signal sources. This application note
+                    demonstrates how to use the 53100A Phase Noise Analyzer to
+                    perform these fundamental tasks with unprecedented ease and
+                    economy, doing the work of several instruments with only one.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/2023_10_Resource_TimePictra_Use Cases.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="Phase Noise Analyzer"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                <div id="app8" class="tab-pane pro-white-bg fade">
+                  <h3>Advanced Configuration Management</h3>
+                  <p>
+                    The Configuration Manager allows authorized users to access,
+                    manage and visualize in real time all network element data and
+                    configuration updates within one application. The Configuration
+                    Manager displays information graphically at the cluster, port,
+                    module and service levels. The TimePictra platform can also add
+                    or delete client clocks and monitor their status based on sync
+                    flow detection
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/2023_10_Resource_TimePictra_Use Cases.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="Advanced Configuration Management"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                <div id="app7" class="tab-pane pro-white-bg fade">
+                  <h3>TimePictra® Synchronization Management System</h3>
+                  <p>
+                    5G, transportation, power utility and hyperscale data networks
+                    rely on ultra-tight time synchronization to identify threats to
+                    your secure synchronization source and distribution networks.
+                    Our TimePictra® 11 Synchronization Management System provides
+                    situational awareness to identify such threats and provides
+                    visibility to assure resilient timing for critical
+                    infrastructures.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/2023_9_Resource_TimePictra.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="TimePictra"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                <div id="app6" class="tab-pane pro-white-bg fade">
+                  <h3>Learn About the 53100A</h3>
+                  <p>
+                    The 53100A measures the amplitude, phase and frequency stability
+                    of high-performance RF sources. It tells you everything you need
+                    to know about the stability characteristics of your devices at
+                    timescales ranging from femtoseconds to days.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/2023_9_Resource_Phase%20Noise%20Analyzer.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="Phase Noise Analyzer"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                <div id="app1" class="tab-pane pro-white-bg fade">
+                  <h3>Learn About 5G Timing Architectures</h3>
+                  <p>
+                    5G communications networks rely on high-precision source clocks
+                    that lock to the Global Navigation Satellite System (GNSS). If
+                    the GNSS timing reference is lost or impaired, calls will drop,
+                    and data services will dramatically slow down or stop
+                    altogether.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Applications_5G%20Timing%20Architectures.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="Timing Applications 5G Timing Architectures"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                <div id="app2" class="tab-pane fade pro-white-bg">
+                  <h3>Learn About Data Centers</h3>
+                  <p>
+                    Regulatory and user requirements for data centers demand
+                    sub-microsecond sequential time stamps. Time stamping precision
+                    and accuracy is critical not only across servers in a data
+                    center, but also between data centers in a network.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Applications_Data%20Centers.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="Timing Applications Data Centers"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                <div id="app3" class="tab-pane fade pro-white-bg">
+                  <h3>Learn About Power Utility Timing Architectures</h3>
+                  <p>
+                    Critical Infrastructure for power generation and distribution
+                    relies on the use of Position Navigation and Timing (PNT)
+                    services delivered by Global Navigation Satellite System (GNSS)
+                    for monitoring and control of power generation and distribution.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Applications_Power%20Utility%20Timing%20Architectures.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="Timing Applications Power Utility Timing Architectures"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                <div id="app4" class="tab-pane fade pro-white-bg">
+                  <h3>Learn About Timing for Transportation Infrastructures</h3>
+                  <p>
+                    Transportation infrastructures—such as aviation, railway or
+                    maritime—rely on the use of Positioning, Navigation and Timing
+                    (PNT) services delivered by Global Navigation Satellite System
+                    (GNSS) for operational efficiency, reliability and, most
+                    importantly, public safety.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Timing_Applications_Transportation%20Infrastructures.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="Timing Applications Transportation Infrastructures"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+                <div id="app5" class="tab-pane fade pro-white-bg">
+                  <h3>Learn About Our SyncServer® S600 Time Server</h3>
+                  <p>
+                    Modern networks require accurate, secure and reliable time
+                    services. The security-hardened SyncServer S600 network time
+                    server delivers exact hardware-based Network Time Protocol (NTP)
+                    and Precise Time Protocol (PTP) timestamps. In addition to its
+                    unparalleled accuracy and security, the S600 offers outstanding
+                    and easy-to-use features for reliable network time services to
+                    meet the needs of networks and business operations today and
+                    into the future.
+                  </p>
+                  <a
+                    href="https://assets.channext.eu/microchip/2023/synchronizationandtimin/pdf/Resource_SyncServer_v5.1.pdf"
+                    class="btn resources-btn"
+                    data-cxp-stat="SyncServer v5.1"
+                    data-cxp-cat="PDF"
+                    target="_blank"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 third-heading py-2 text-center">
+                Reference videos
+              </div>
+            </div>
+            <div class="row my-5">
+              <div class="col-sm-5 col-height mb-mobile my-auto">
+                <ul class="nav nav-tabs">
+                 <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#video11">
+                      Trusted Time Technology for Zero Trust Networks
+    
+                    </a>
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#video10">
+                      CSAC Measuring
+                    </a>
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#video9">
+                      The Next-Generation 5071B Cesium Atomic Clock Delivers Precise
+                      Timing For Months In GNSS Outages
+                    </a>
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#video8">
+                      What applications use Power over Ethernet
+                    </a>
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#video7"
+                      >Simplify Oscillator Stability Measurements with Phase Noise
+                      Analyzer Internal Reference Options</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#video6"
+                      >Simplify Phase Noise Measurements</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#video1"
+                      >Clock & Timing Solutions for Commercial Communications</a
+                    >
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#video2">
+                      Precise Timing for Transportation
+                    </a>
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#video3">
+                      National Timing Infrastructure
+                    </a>
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#video4">
+                      Chip Scale Atomic Clock for Ultra-High Precision
+                    </a>
+                  </li>
+                  <li class="nav-item w-100 mb-2">
+                    <a class="nav-link-syn" data-toggle="tab" href="#video5">
+                      Time Server with GNSS Protection
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-7 tab-content">
+                 <div id="video11" class="active tab-pane pro-white-bg">
+                  <h3>Trusted Time Technology for Zero Trust Networks</h3>
+                  <p class="">
+                    Time is central to accurate log files that define the who, what, when and where of all activity in a Zero Trust network. 
+                  </p>
+                  <div
+                    class="embed-responsive embed-responsive-16by9"
+                    href=""
+                    data-toggle="modal"
+                    data-target="#videoModal"
+                    data-cxp-stat="link to video popup"
+                    data-cxp-cat="Video"
+                  >
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/L9IMi9fF-ZU?si=rhleTkMvo4jyVLfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div id="video10" class="tab-pane pro-white-bg">
+                  <h3>The Lowest Power Atomic Clock</h3>
+                  <p class="">
+                    At IMS, Microchip technology tested and compared measurements
+                    between a miniature atomic clock and a chip-scale atomic clock
+                    (CSAC) using its 53100A Phase Noise Analyzer.
+                  </p>
+                  <div
+                    class="embed-responsive embed-responsive-16by9"
+                    href=""
+                    data-toggle="modal"
+                    data-target="#videoModal"
+                    data-cxp-stat="link to video popup"
+                    data-cxp-cat="Video"
+                  >
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/o8pK4FCxBLc?si=LsFpu5wJCMFXRq0G"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+    
+                <div id="video9" class="tab-pane pro-white-bg">
+                  <h3>
+                    The Next-Generation 5071B Cesium Atomic Clock Delivers Precise
+                    Timing For Months In GNSS Outages
+                  </h3>
+                  <p class="">
+                    Next-generation cesium atomic clock for autonomous precise
+                    timing for months with no GNSS
+                  </p>
+                  <div
+                    class="embed-responsive embed-responsive-16by9"
+                    href=""
+                    data-toggle="modal"
+                    data-target="#videoModal"
+                    data-cxp-stat="link to video popup"
+                    data-cxp-cat="Video"
+                  >
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/1wlOkcCk2gU?si=fLD_TJibOfMSGzM2"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+    
+                <div id="video8" class="fade in tab-pane pro-white-bg">
+                  <h3>
+                    Learn about PoE devices being deployed in multiple applications
+                    indoors and outdoors.
+                  </h3>
+                  <p class="mb-0">
+                    Watch additional PoE series episodes of Ask Our Experts,
+                    including:
+                  </p>
+                  <li class="mb-0">What is Power over Ethernet (PoE)?</li>
+                  <li class="mb-0">
+                    What is the difference between PoE, PoE+, and PoE++?
+                  </li>
+                  <li class="mb-0">
+                    Do all PoE devices conform to industry standards?
+                  </li>
+                  <div
+                    class="embed-responsive embed-responsive-16by9"
+                    href=""
+                    data-toggle="modal"
+                    data-target="#videoModal"
+                    data-cxp-stat="link to video popup"
+                    data-cxp-cat="Video"
+                  >
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/video/y2mate.is-AOEWhatApplicationsusePowerover%20Ethernet-eVme1LMRcU-1080pp-1687345068.mp4"
+                      title="How Critical Is Timing for 5G Networks?"
+                      frameborder="0"
+                      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div id="video7" class="tab-pane fade in pro-white-bg">
+                  <h3>
+                    Simplify Oscillator Stability Measurements with Phase Noise
+                    Analyzer Internal Reference Options
+                  </h3>
+                  <p>
+                    Now available with an internal miniaturized atomic clock,
+                    Microchip’s 53100A Phase Noise Analyzer provides a "one-box"
+                    solution, simplifying high performance stability, phase noise
+                    and drift measurements of oscillators without cumbersome
+                    frequency references.
+                  </p>
+                  <div
+                    class="embed-responsive embed-responsive-16by9"
+                    href=""
+                    data-toggle="modal"
+                    data-target="#videoModal"
+                    data-cxp-stat="link to video popup"
+                    data-cxp-cat="Video"
+                  >
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/video/Microchip1.mp4?enablejsapi=1&playlist=Bp3WDkyIlJM"
+                      title="Mp4 video player"
+                      frameborder="0"
+                      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div id="video6" class="tab-pane fade in pro-white-bg">
+                  <h3>Simplify Phase Noise Measurements</h3>
+                  <p>
+                    Reliable phase noise and stability measurements can be
+                    challenging. We will explain how to make repeatable measurements
+                    of high-performance oscillators and RF signals. In this episode
+                    you will learn: in
+                  </p>
+                  <div
+                    class="embed-responsive embed-responsive-16by9"
+                    href=""
+                    data-toggle="modal"
+                    data-target="#videoModal"
+                    data-cxp-stat="link to video popup"
+                    data-cxp-cat="Video"
+                  >
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/1QwNTHMsyT4?enablejsapi=1&playlist=Bp3WDkyIlJM"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div id="video1" class="tab-pane fade in pro-white-bg">
+                  <h3>
+                    Decades of Experience with Delivering Precise Timing Solutions
+                  </h3>
+                  <p>
+                    For more than 40 years, Microchip's advances in timing
+                    technology have been a driving factor in the success of
+                    worldwide commercial communications. Discover the earliest
+                    milestones and learn more about Microchip's innovative solutions
+                    for the future.
+                  </p>
+                  <div
+                    class="embed-responsive embed-responsive-16by9"
+                    href=""
+                    data-toggle="modal"
+                    data-target="#videoModal"
+                    data-cxp-stat="link to video popup"
+                    data-cxp-cat="Video"
+                  >
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/hmro3t-8K3s??enablejsapi=1&playlist=hmro3t-8K3s"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; player.pauseVideo(2):Void; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div id="video2" class="tab-pane fade pro-white-bg">
+                  <h3>Resilient PNT Services for Transportation Infrastructure</h3>
+                  <p>
+                    The combination of GNSS threat detection and the vPRTC
+                    architecture provides national transportation operators with a
+                    dual-purpose solution for monitoring and delivery of resilient
+                    PNT services. Much like a network firewall, this solution
+                    creates a dome of protection that strengthens the overall use of
+                    PNT services.
+                  </p>
+                  <div
+                    class="embed-responsive embed-responsive-16by9"
+                    href=""
+                    data-toggle="modal"
+                    data-target="#videoModal"
+                    data-cxp-stat="link to video popup"
+                    data-cxp-cat="Video"
+                  >
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/VAKOBBKGsUA??enablejsapi=1&playlist=VAKOBBKGsUA"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; player.pauseVideo(2):Void; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div id="video3" class="tab-pane fade pro-white-bg">
+                  <h3>Secure UTC Traceable Time</h3>
+                  <p>
+                    Fully integrated independent Time Scale System back- up to GNSS
+                  </p>
+                  <div
+                    class="embed-responsive embed-responsive-16by9 popup-youtube-player"
+                    href=""
+                    data-toggle="modal"
+                    data-target="#videoModal"
+                    data-cxp-stat="link to video popup"
+                    data-cxp-cat="Video"
+                  >
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/eerwMYvbouo??enablejsapi=1&playlist=eerwMYvbouo"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; player.pauseVideo(2):Void; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div id="video4" class="tab-pane fade pro-white-bg">
+                  <h3>
+                    Chip Scale Atomic Clock (CSAC) Designed for Extreme Environments
+                  </h3>
+                  <p>
+                    New Chip Scale Atomic Clock (CSAC) provides wider operating
+                    temperatures, faster warm-up and improved frequency stability in
+                    extreme environments
+                  </p>
+                  <div
+                    class="embed-responsive embed-responsive-16by9"
+                    href=""
+                    data-toggle="modal"
+                    data-target="#videoModal"
+                    data-cxp-stat="link to video popup"
+                    data-cxp-cat="Video"
+                  >
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/hz6Q8yv91ys??enablejsapi=1&playlist=hz6Q8yv91ys"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; player.pauseVideo(2):Void; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div id="video5" class="tab-pane fade pro-white-bg">
+                  <h3>
+                    Deliver Accurate, Reliable and Secure Time With SyncServer® S600
+                    Network Time Server
+                  </h3>
+                  <p>
+                    SyncServer® S600 time server with BlueSky™ technology logs GNSS
+                    satellite tracking data and local RF noise to provide a baseline
+                    look back in time for alarm correlation.
+                  </p>
+                  <div
+                    class="embed-responsive embed-responsive-16by9"
+                    href=""
+                    data-toggle="modal"
+                    data-target="#videoModal"
+                    data-cxp-stat="link to video popup"
+                    data-cxp-cat="Video"
+                  >
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/Bp3WDkyIlJM?enablejsapi=1&playlist=Bp3WDkyIlJM"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; player.pauseVideo(2):Void; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container-fluid mb-5 mt-2">
+          <div class="container text-center">
+            <div class="row px-5">
+              <div class="embed-responsive embed-responsive-16by9 d-flex mx-auto">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://assets.channext.eu/microchip/2023/synchronizationandtimin/video/Clock%20%26%20Timing%20Solutions%20for%20Commercial%20Communications%20-%201980s%20to%20Today.mp4"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+</body>
+</html>
