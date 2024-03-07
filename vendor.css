@@ -194,10 +194,6 @@ h4 {
     border-radius: 0;
 }
 
-.btn {
-    padding: 15px 25px!important;;
-}
-
 #form-container button:hover,
 .sp-cta-btn:hover {
     background-color: #1c355e;
